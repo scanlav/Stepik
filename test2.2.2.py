@@ -1,8 +1,9 @@
 # импортируем нужные модули, иначе ничего не сработает
+import os
+import time
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
-import os
 
 # инициализируем браузер, в котором будем тестировать
 browser = webdriver.Chrome()

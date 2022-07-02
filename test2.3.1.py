@@ -1,7 +1,8 @@
+import math
+import time
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
-import math
 
 browser = webdriver.Chrome()
 link = 'http://suninjuly.github.io/alert_accept.html'
